@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: annotations
+  annotations:
+    docker-url: "https://hub.docker.com/explore"
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+    
