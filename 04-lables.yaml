@@ -7,9 +7,9 @@ metadata:
     image: nginx
     version: v1
     env: dev
-    ports:
-    - containerport: 80
 spec:
   containers:
   - name: frontend
     image: nginx
+    ports:
+    - containerPort: 80
