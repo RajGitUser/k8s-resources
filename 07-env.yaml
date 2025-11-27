@@ -7,6 +7,6 @@ spec:
   - name: nginx
     image: nginx
     env:
+    - name: course
       course: kubernetes
       duration: 20hrs
-      
