@@ -14,7 +14,7 @@ spec:
       purpose: rs-service
       project: roboshop
   ## pod definition
-  templets:
+  template:
     metadata:
       labels:
         purpose: rs-service
