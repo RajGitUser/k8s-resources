@@ -7,7 +7,7 @@ metadata:
     purpose: rs-service
     project: roboshop
 spec:
-  replicals: 3
+  replicas: 3
   selector:
   ## these lables are used to select the pods
     matchLabels:
