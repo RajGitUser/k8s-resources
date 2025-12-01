@@ -3,12 +3,12 @@ kind: Service
 metadata:
   name: nginx-lb
 spec:
-  type: LoadBalencer
+  type: LoadBalancer
   selector:
     project: roboshop
     component: frontend
     environment: dev
-    purpose: load-balencer 
+    purpose: load-balancer 
   ports:
     - protocol: TCP
       port: 80  # service port number
