@@ -3,14 +3,14 @@ kind: ReplicaSet
 metadata:
   name: nginx
   ## relicaset lables
-  lables:
+  labels:
     purpose: rs-service
     project: roboshop
 spec:
   replicals: 3
   selector:
   ## these lables are used to select the pods
-    matchLables:
+    matchLabels:
       purpose: rs-service
       project: roboshop
   ## pod definition
