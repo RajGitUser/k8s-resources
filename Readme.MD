@@ -1,36 +1,21 @@
-🧩 k8s-resources
+# 🧩 k8s-resources
 
 A collection of Kubernetes resource manifests (YAML files) demonstrating common Kubernetes objects — perfect for learning, prototyping, and reference.
 
 This repository includes examples such as Namespaces, Pods, Deployments, Services, Secrets, ConfigMaps, ReplicaSets, StatefulSets, and more. 
 GitHub
 
-📌 Table of Contents
-
-About
-
-Repository Structure
-
-Usage
-
-List of Resources
-
-Prerequisites
-
-Apply Manifests
-
-Contributing
-
-License
-
-🧠 About
+# 🧠 About
 
 This repo contains example Kubernetes YAML files showcasing basic and intermediate Kubernetes resources. It’s designed for:
 
 ✔ Learning and hands-on practice
 ✔ Training environments
 ✔ Reference templates for Kubernetes objects
+<<<<<<< HEAD
 ---
+=======
+>>>>>>> b5bd7118726ca973218b432cd7999b04c7502152
 
 ## 🚀 Usage
 
